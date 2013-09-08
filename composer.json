@@ -1,0 +1,23 @@
+{
+    "name": "vespolina/process",
+    "description": "Vespolina process library for handling workflow",
+    "homepage": "http://vespolina-project.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vespolina Team",
+            "homepage": "https://github.com/vespolina/action/contributors"
+        }
+    ],
+    "keywords": ["Vespolina", "process", "workflow"],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Vespolina": "lib/",
+            "Vespolina\\Tests": "tests/"
+        }
+    }
+}
