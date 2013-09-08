@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Vespolina\CommerceBundle\Process;
+namespace Vespolina\Process\Process;
 
 /**
  * The process interface models a generic business process

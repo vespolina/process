@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Vespolina\CommerceBundle\Process;
+namespace Vespolina\Process\Process;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Monolog\Logger;

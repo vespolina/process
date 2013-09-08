@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Vespolina\CommerceBundle\Process;
+namespace Vespolina\Process\Process;
 
 /**
  * @author Daniel Kucharski <daniel@xerias.be>

@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Vespolina\CommerceBundle\Process;
+namespace Vespolina\Process\Process;
 
 use Symfony\Component\DependencyInjection\ContainerAware;
 
@@ -94,7 +94,7 @@ class ProcessManager extends ContainerAware implements ProcessManagerInterface
     protected function getClassMap()
     {
         return array(
-            'checkout_b2c' =>  'Vespolina\CommerceBundle\ProcessScenario\Checkout\CheckoutProcessB2C'
+            'checkout_b2c' =>  'Vespolina\Process\ProcessScenario\Checkout\CheckoutProcessB2C'
         );
     }
 }
